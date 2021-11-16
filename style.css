@@ -10,6 +10,8 @@
     border:thin solid #cfcfcf;
     border-radius: 3px;
     padding: 10px;
+    position: relative;
+    padding-bottom: 10px;
 }
 
 .newsletter h3{
@@ -23,6 +25,7 @@
     display: block;
     width: 100%;
     height: 30px;
+    margin-bottom: 10px;
 }
 
 .newsletter input#email {
@@ -37,4 +40,10 @@
 .newsletter #terms {
     position: relative;
     top:1px;
+}
+
+.newsletter #closex {
+    position: absolute;
+    top: 0;
+    right: 4px;
 }
